@@ -3,6 +3,11 @@
 # Русский
 Шаблон для создания модов для DayZ Standalone.
 
+## Примеры проектов:
+
+> https://github.com/ghostiam-DayZ/InventoryDump \
+импорт мода CF, сборка мода в разные пакеты(для сервера и клиента), и всё это с рабочим дебагером! (смотрите `mod.cfg` параметры `Additional*Mods`).
+
 ## Порядок действий для нового прокта
 
 1) Склонировать(или скачать) репозиторий.
@@ -12,6 +17,9 @@
 5) Переименовать папки `Mod/Ghost/MyFirstMod` по формату из конфига `Mod/ВашПрефикс/НазваниеМода`.
 6) Отредактировать файл `Mod/Ghost/MyFirstMod/config.cpp` под себя.
 7) Запустить скрипт `ModInit.bat` который создаст все необходимые ссылки для работы мода.
+
+## Инструменты
+В папке `Tools` находятся скрипты, которые позволяют вам автоматизировать рутинные вещи, от удаления логов, до сборки вашего мода.
 
 ## Работа с Workbench
 
@@ -23,6 +31,11 @@
 # English
 Template for creating mods for DayZ Standalone.
 
+## Example projects: 
+
+> https://github.com/ghostiam-DayZ/InventoryDump \
+import CF mod, mod building into different packages (for server and client), and all this with a working debugger! (see `mod.cfg` for `Additional*Mods` options).
+
 ## Setup for a new project
 
 1) Clone (or download) the repository.
@@ -32,6 +45,9 @@ Template for creating mods for DayZ Standalone.
 5) Rename the `Mod/Ghost/MyFirstMod` folders according to the format from the `Mod/YourPrefix/ModName` config.
 6) Edit the file `Mod/Ghost/MyFirstMod/config.cpp`.
 7) Run the script `ModInit.bat` which will create all the necessary links for the mod to work.
+
+## Tools
+The `Tools` folder contains scripts that allow you to automate routine things, from removing logs to building your mod.
 
 ## Working with the Workbench
 
