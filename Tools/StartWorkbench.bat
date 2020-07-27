@@ -41,8 +41,9 @@ set mods=
 if "%AdditionalWorkbenchMods%"=="" (
     set mods=%wd%\%Prefix%\%ModName%
 ) else (
-    set mods=%AdditionalWorkbenchMods%;%modName%
+    set mods=%AdditionalWorkbenchMods%;%wd%\%Prefix%\%ModName%
 )
+
 for %%a in ("%mods:;=" "%") do (
     set mod=%%~a
 	set modDir=%wd%\%Prefix%\%ModName%\
