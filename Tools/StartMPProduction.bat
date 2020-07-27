@@ -20,6 +20,8 @@ FOR /F "tokens=*" %%i in ('type ..\mod.cfg ^| findStr.exe "%1="') do SET %%i
 
 call KillAll.bat
 
+call BuildMod.bat production
+
 call StartServer.bat production
 
 TIMEOUT /T 10 /NOBREAK
